@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kalkulator Wskaźników</string>
+    <string name="plynnosc">PŁYNNOŚĆ</string>
+    <string name="rentownosc">RENTOWNOŚĆ</string>
+    <string name="zadluzenie">ZADŁUŻENIE</string>
+    <string name="aktywa_obrotowe">Aktywa obrotowe</string>
+    <string name="zobowiazania">Zob. krótk.            </string>
+    <string name="zapasy">Zapasy                  </string>
+    <string name="srodki_pieniezne">Środki pieniężne  </string>
+    <string name="oblicz">OBLICZ</string>
+    <string name="title_activity_zadluzenie">ZadluzenieActivity</string>
+    <string name="first_fragment_label">ttt</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="zysk_netto">Zysk netto</string>
+    <string name="przychody_sprzedaz">Przych. ze sprz.</string>
+    <string name="aktywa_ogolem">Aktywa ogółem</string>
+    <string name="kapital_wlasny">Kapitał własny</string>
+
+    <string name="zobowiazania_ogolem">Zob. ogółem</string>
+</resources>

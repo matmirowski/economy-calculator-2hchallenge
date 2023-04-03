@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="30dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/plynnosc_button"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@color/rozowy_ciemny"
+        android:text="@string/plynnosc"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:onClick="onClickPlynnosc"/>
+
+    <Button
+        android:id="@+id/rentownosc_button"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@color/przycisk2"
+        android:text="@string/rentownosc"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:onClick="onClickRentownosc"/>
+
+    <Button
+        android:id="@+id/zadluzenie_button"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@color/przycisk3"
+        android:text="@string/zadluzenie"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:onClick="onClickZadluzenie"/>
+
+</LinearLayout>
